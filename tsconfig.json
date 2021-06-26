@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "alwaysStrict":                 true,
+    "declaration":                  true,
+    "downlevelIteration":           true,
+    "module":                       "system",
+    "target":                       "es2015",
+    "inlineSourceMap":              true,
+    "inlineSources":                true,
+    "noImplicitAny":                true,
+    "noImplicitReturns":            true,
+    "noImplicitThis":               true,
+    "noUnusedParameters":           true,
+    "pretty":                       true,
+    "strictFunctionTypes":          true,
+    "strictPropertyInitialization": true,
+    "strictNullChecks":             true,
+
+    "outFile": "js/rag.js"
+  },
+
+  "compileOnSave": true,
+
+  "include": [
+    "js/lang/I18n.ts",
+    "js/*/*/*.ts",
+    "js/*/*.ts",
+    "js/*.ts"
+  ],
+
+  "exclude": [
+    "node_modules",
+    "js/rag.d.ts"
+  ]
+}
